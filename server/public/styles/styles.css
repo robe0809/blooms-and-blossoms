@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 16px;
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  height: 100px;
+  margin: auto 0;
+  border-bottom: 2px solid #039;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+h1, h2 {
+position: relative;
+color: #039;
+top: 25px;
+font-weight:100;
+}
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* Table Section */
+.tableSection {
+  width: 100%;
+  text-align: center;
+}
+table {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+th {
+  height: 20px;
+  color: #039;
+  font-weight: normal;
+  border-bottom: 2px solid #039;
+}
+tr {
+  color: #039;
+  border-spacing: 2px;
+  border-bottom: 1px solid grey;
+}
+#sals, #totalSalaries {
+  border: 0;
+}
+td {
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+tr:hover {
+  opacity: 0.5;
+}
+
+/* form Section */
+.formSection {
+  width: 100%;
+  text-align: center;
+}
+form {
+  width: 40%;
+  margin: 5% auto;
+  border-bottom: 2px solid #039;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+#submitBtn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+input[type=text], input[type=number] {
+    border: 0;
+    outline: 0;
+    margin: 0 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    font-size: 16px;
+}
+input:focus::-webkit-input-placeholder {
+    opacity: .3;
+}
+input::placeholder {
+  text-align: center;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color: #039;
+}
