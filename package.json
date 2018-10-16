@@ -1,0 +1,24 @@
+{
+  "name": "blooms-and-blossoms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robe0809/blooms-and-blossoms.git"
+  },
+  "author": "Ian Robertson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robe0809/blooms-and-blossoms/issues"
+  },
+  "homepage": "https://github.com/robe0809/blooms-and-blossoms#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.3"
+  }
+}
